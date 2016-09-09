@@ -1,0 +1,52 @@
+.button {
+	-fx-text-fill: #303030;
+	-fx-background-color: #525051;
+    -fx-font: 25 futura;
+    -fx-min-width: 150;
+    -fx-effect: dropshadow(gaussian, black, 20, 0, 2, 2);
+}
+.button:hover {
+	-fx-background-color: #ffffff;
+	-fx-effect: dropshadow(gaussian, white, 5, 0, 0, 0);
+}
+
+
+.label {
+	-fx-font: 50 futura;
+	-fx-text-fill: white;
+	-fx-text-alignment: center;
+	-fx-effect: dropshadow(gaussian, black, 10, 0, 5, 0);
+}
+
+.image-view {
+	-fx-effect: dropshadow(gaussian, black, 20, 0, 5, 0);
+}
+
+#label-space {
+	-fx-font: 20 futura;
+	-fx-effect: dropshadow(gaussian, black, 5, 5, 2, 2);
+}
+
+#label-instruction {
+	-fx-font: 12 futura;
+	-fx-text-fill: red;
+}
+
+#tile-text {
+	-fx-font: 12 futura;
+	-fx-effect: dropshadow(gaussian, black, 4, 0, 1, 0);
+}
+
+.root {
+    -fx-background-image: url("image3.png");
+    -fx-background-repeat: stretch;
+}
+
+.rectangle {
+	-fx-effect: innershadow(gaussian, black, 10, 0, 1, 0);
+}
+
+#difficulty {
+	-fx-background-color: #303030;
+	-fx-effect: dropshadow(gaussian, black, 10, 0, 5, 2);
+}
